@@ -1,0 +1,38 @@
+{
+  "name": "EaseUI",
+  "version": "3.3.2",
+  "license": {
+    "type": "Copyright",
+    "text": "EaseMob Inc. 2017"
+  },
+  "summary": "EaseMob UI Kit",
+  "homepage": "https://github.com/easemob/easeui-ios-hyphenate-cocoapods",
+  "authors": {
+    "EaseMob Inc.": "admin@easemob.com"
+  },
+  "source": {
+    "path": "./"
+  },
+  "source_files": "**/*.{h,m,mm}",
+  "platforms": {
+    "ios": "7.0"
+  },
+  "vendored_libraries": [
+    "EMUIKit/3rdparty/DeviceHelper/VoiceConvert/opencore-amrnb/libopencore-amrnb.a",
+    "EMUIKit/3rdparty/DeviceHelper/VoiceConvert/opencore-amrwb/libopencore-amrwb.a"
+  ],
+  "requires_arc": true,
+  "frameworks": [
+    "Foundation",
+    "UIKit"
+  ],
+  "libraries": "stdc++",
+  "resources": [
+    "resources/EaseUIResource.bundle",
+    "EMUIKit/3rdparty/MJRefresh/MJRefresh.bundle",
+    "EMUIKit/3rdparty/MWPhotoBrowser/MWPhotoBrowser.bundle"
+  ],
+  "xcconfig": {
+    "OTHER_LDFLAGS": "-ObjC"
+  }
+}

@@ -1,0 +1,1 @@
+../../../../../../HyphenateFullSDK/Hyphenate.framework/Headers/EMImageMessageBody.h

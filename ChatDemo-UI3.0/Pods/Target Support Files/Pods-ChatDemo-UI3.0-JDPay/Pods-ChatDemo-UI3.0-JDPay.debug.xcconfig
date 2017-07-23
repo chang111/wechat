@@ -1,0 +1,9 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../HyphenateFullSDK" "${PODS_ROOT}/RedPacketAlipay"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/EaseUI" "${PODS_ROOT}/Headers/Public/Hyphenate" "${PODS_ROOT}/Headers/Public/RedPacketAlipay" "${PODS_ROOT}/Headers/Public/RedpacketAliAuthLib" "${PODS_ROOT}/Headers/Public/RedpacketLib"
+LIBRARY_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/EaseUI" $(inherited) "${PODS_ROOT}/../../EaseUI/EMUIKit/3rdparty/DeviceHelper/VoiceConvert/opencore-amrnb" $(inherited) "${PODS_ROOT}/../../EaseUI/EMUIKit/3rdparty/DeviceHelper/VoiceConvert/opencore-amrwb" $(inherited) "${PODS_ROOT}/RedpacketLib/RedpacketStaticLib/lib"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/EaseUI" -isystem "${PODS_ROOT}/Headers/Public/Hyphenate" -isystem "${PODS_ROOT}/Headers/Public/RedPacketAlipay" -isystem "${PODS_ROOT}/Headers/Public/RedpacketAliAuthLib" -isystem "${PODS_ROOT}/Headers/Public/RedpacketLib"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"EaseUI" -l"RedpacketLib" -l"c++" -l"opencore-amrnb" -l"opencore-amrwb" -l"stdc++" -l"z" -framework "AlipaySDK" -framework "AudioToolbox" -framework "CFNetwork" -framework "CoreMotion" -framework "CoreTelephony" -framework "Foundation" -framework "Hyphenate" -framework "SystemConfiguration" -framework "UIKit"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}/Pods

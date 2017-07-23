@@ -1,0 +1,31 @@
+PODS:
+  - EaseUI (3.3.2)
+  - Hyphenate (3.3.2)
+  - RedpacketAliAuthLib (1.1.3):
+    - RedPacketAlipay
+  - RedPacketAlipay (15.0.2)
+  - RedpacketLib (3.4.7):
+    - RedPacketAlipay
+
+DEPENDENCIES:
+  - EaseUI (from `../EaseUI`)
+  - Hyphenate (from `../HyphenateFullSDK`)
+  - RedpacketAliAuthLib
+  - RedpacketLib
+
+EXTERNAL SOURCES:
+  EaseUI:
+    :path: ../EaseUI
+  Hyphenate:
+    :path: ../HyphenateFullSDK
+
+SPEC CHECKSUMS:
+  EaseUI: 9a45bfe33f7f02c3dd4562925eba0a236636f80e
+  Hyphenate: cb4bf60286ae9e4aa050e5ddef88b12d81ebd268
+  RedpacketAliAuthLib: c37c38e5e8c58945f7a9eabbe348c7259fc0a640
+  RedPacketAlipay: a5de6db2e2671fc9255d6d396be869e3ba2f0489
+  RedpacketLib: a5d7dcd3fe5b76dbb23ab799c749bce9eeb633c4
+
+PODFILE CHECKSUM: 3bd1ce13daba680f4d5274bf05051d721d77f63a
+
+COCOAPODS: 1.2.0.beta.1
